@@ -8,7 +8,7 @@ public class Human01 {
 		age = 20;
 	}
 
-	public Human01(Sring name, int age) {
+	public Human01(String name, int age) {
 		this.name = name;
 		this.age = age;
 	}
