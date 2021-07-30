@@ -13,11 +13,11 @@ public class Car {
 	
 	public void move(int distance) {
 		System.out.println(distance + " km 走ります");
-		fuelAmount = fuelAmount - (distance / fuelCost) ;
+		this.fuelAmount -= (distance / fuelCost) ;
 	}
 	
 	public double getFuelAmount() {
-		return fuelAmount;
+		return this.fuelAmount;
 	}
 
 }
